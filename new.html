@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="Tanimoo sodiq">
+  <meta name="description" content="This page 
+  contain all the thing i am learning
+  how to as i create html">
+  <title>My fisrt web page</title>
+  <link rel="icon" href="html.png.png"
+   type="image/x-icon">
+   <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+<body>
+  <header>
+    <h1>My Goals for the Year</h1>
+
+   <nav aria-label="primary navigation">
+    <ul>
+      <li>
+        <a href="#html"> Learning HTML</a>
+      </li>
+      <li>
+        <a href="#vacation">planning a vacation</a>
+      </li>
+      <li>
+        <a href="#Contact">Contact Me</a>
+      </li>
+    </ul>
+   </nav>
+  </header>
+<hr>
+<main>
+ <article id="html">
+   <h2>I am ready to learn HTML</h2>
+   <p>This is my first web page</p>
+   <section>
+    <h3>HTML5</h3>
+   <img src="html.png.png" alt="HTML5 logo"
+    title="i am learning html5">
+    <figure>
+      <figcaption>
+        An example of HTML5 code
+      </figcaption>
+      <p>
+        <code>&lt;hi&gt;Hello world!&lt;/h1&gt;</code>
+      </p>
+    </figure>
+    </section>
+    <section>
+   <h3>My daily schedule</h3>
+   <p>Let me tell you how:</p>
+   <ol>
+     <li>...i learn more about web dev.</li>
+     <li>...i plan out my schedule.</li>
+     <li>...i use resources from <abbr title="Mozilla
+       Developer Network"> 
+     <a href="https//developer.mozilla.org/">MDN</a>
+     </abbr>,</li>
+    </ol>
+    <aside>
+       <details>
+         <summary>Guess the <mark> number of hour</mark> i
+           code per day 
+          </summary>
+           <p>i start by <time datetime="08:00">
+            8am</time> and i write code for <time datetime="PT3H">
+              3 hours</time> every morning.</p>
+      </details>
+    </aside>
+    <br>
+    <table>
+      <caption>My Daily Schedule</caption>
+      <thead>
+      <tr>
+        <th>&nbsp;</th>
+        <th Scope="col">Time</th>
+        <th scope="col">Activity</th>
+      </tr>
+      </thead>
+      <body>
+      <tr>
+        <th  scope="row">Morning</th>
+        <td>
+          <time datetime="08:00">8am</time>-<ime 
+          datetime="11;00">11am</time>
+        </td>
+        <td> write code</td>
+      </tr>
+      <tr>
+        <th scope="row">Break</th>
+        <td>
+          <time datetime="11:00">11am</time>-<ime 
+          datetime="12;00">12pm</time>
+        </td>
+        <td> Eat lunch</td>
+      </tr>
+      <tr>
+        <th scope="row">Afternoon</th>
+        <td>
+          <time datetime="12:00">12pm</time>-<ime 
+          datetime="5;00">5pm</time>
+        </td>
+        <td> Study for other courses</td>
+      </tr>
+      <tr>
+        <th scope="row">Evening</th>
+        <td rowspan="2">All other times</td>
+        <td >Free Time</td>
+      </tr>
+      <tr>
+        <th scope="row">Night</th>
+        <td>sleep</td>
+      </tr>
+    </body>
+    <tfoot>
+      <tr>
+        <td colspan="3">And that is what i do every day, 5 Days a week
+          just eat, sleep,code..... and recharge! </td>
+      </tr>
+    </tfoot>
+    </table>
+    </section>
+ </article>
+
+  <hr>
+<article id="vacation">
+  <h2>I am also planning a vacation</h2>
+  <p>I've been working hard and <em> really need a getaway</em>.</p>
+  <p>I live in <abbr title="Nigeria">Naija</abbr> 
+    so i want to visit a olumo rock</p>
+
+   <section>
+  <h3>places i'd like to visit</h3>
+  <ul>
+ <li><p>I've haerd good things about the OlumoRock</p>
+  <figure>
+ <img src="olumorock.jpg.jpg" 
+ alt="olumo rock" title="i want
+ to visit olumo rock" width=
+ "200" height="300" loading="lazy">
+ <figcaption>
+  olumo rock 
+ </figcaption>
+ </figure>
+ </li>
+  <li>
+    <p>I've heard about the good things going on here.</p>
+   <address>
+    No 6, Adeyanju strret cele-nica<br>
+    off badagry express way,ojo<br>
+    Lagos, Nigeria.
+   </address>
+  <figure>
+   <img src="Nigeria.jpg.jpg" alt="NIGERIA" title="it's 5 o'
+    clock somewhere!" loading="lazy" width="200" height="300">
+  <figcaption>
+    NIGERIA 
+   </figcaption>
+  </figure>
+ </li>
+</ul>
+</section>
+  <!-- TODO: Add more places-->
+<section>
+  <h3>places i want to avoid</h3>
+  <dl>
+    <dt>North pole</dt>
+    <dd>i heard this is <strong>cold</strong>!</dd>
+
+    <dt>south pole</dt>
+    <dd>This is also cold</dd>
+
+    <dt>Mountain Tops</dt>
+    <dd>These are also cold.</dd>
+  </dl>
+  </section>
+</article>
+<hr>
+<article id="Contact">
+  <h2>Contact Me</h2>
+  <p>I really like to hear from you</p>
+  <form action="https://httpbin.org/get" method="get">
+    <fieldset>
+      <legend>Personal info</legend>
+    <p>
+<label for="FirstName">FirstName</label>
+<input type="text" name="FirstName" id="FirstName"
+ placeholder="TANIMOWO" autocomplete="on" 
+ required autofocus>
+</p>
+<p>
+  <label for="LastName">LasttName</label>
+  <input type="text" name="lastName" id="asttName"
+   placeholder="Sodiq" autocomplete="on" 
+   required>
+  </p>
+  <p>
+    <label for="Password">Password</label>
+    <input type="Password" name="Password"
+     id="Password" placeholder="Your Secret"
+     required>
+    </p>
+    <p>
+      <label for="Phone">phone</label>
+      <input type="tel" name="Phone"
+       id="Phone" placeholder="555-555-5555" pattern=
+       "[0-9]{3}[0-9]{3}[0-9]{4}" required>
+      </p>
+      <p>
+        <label for="decade">Favourite Decade:</label>
+        <input type="Number" name="decade"
+        id="decade" min="1950" max="2020" step="10" 
+        value="1980">
+        </p>
+     <p>
+         <label for="Coffee">Favourite Coffee</label>
+         <select name="Coffee" id="Coffee" multiple size="">
+          <optgroup label="coffees">
+          <option value="regular coffee">Regular Coffee</option>
+          <option value="Iced Coffee">Iced Coffee</option>
+          </optgroup>
+          <optgroup label="Soft Drink">
+          <option value="latte" selected>Latte</option>
+          <option value="cappuccino">Cappuccino</option>
+          <option value="cortado">cortado</option>
+          <option value="americano">Americano</option>
+          <option value="other">Other</option>
+          </optgroup>
+         </select>
+      </p>
+      <!-- <p><label for="coffee">Favourite Coffee:</label>
+        <input type="text" name="coffee" id="coffee" list="list">
+        <datalist id="coffee-list">
+          <option value="Coffee">
+          <option value="Latte">
+          <option value="espresso">
+          <option value="cortado">
+          <option value="americano">
+          <option value="other">
+        </datalist>
+      </p> -->
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>What's your Favourite food</legend>
+      <p>
+        <input type="radio" name="food" id="tacos" value="tacos">
+        <label for="tacos">Tacos</label>
+      </p>
+      <p>
+        <input type="radio" name="food" id="pizza" value="pizza">
+        <label for="pizza">Pizza</label>
+      </p>
+      <p>
+        <input type="radio" name="food" id="other" value="other">
+        <label for="other">Other</label>
+      </p>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Do you have pet?</legend>
+      <p>
+        <input type="checkbox" name="pets" id="dog" value="dog">
+        <label for="dog">Dog</label>
+      </p>
+      <p>
+        <input type="checkbox" name="pets" id="cat" value="cat">
+        <label for="dog">Cat</label>
+      </p>
+      <p>
+        <input type="checkbox" name="pets" id="tiger" value="tiger">
+        <label for="dog">Tiger</label>
+      </p>
+      <p>
+        <input type="checkbox" name="pets" id="otherpet" value="otherpet">
+        <label for="dog">Other</label>
+      </p>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Send Me A Note</legend>
+      <label for="message">Your message</label>
+      <br><textarea name="Message" id="Message" cols="30" rows="10" 
+      placeholder="Type your message here"></textarea>
+    </fieldset>
+    <br>
+    <button type="submit">Submit</button>
+    <button type="submit" formaction="https;//httpbin.org/post"
+     form="post">Post</button>
+    <button type="reset">Reset</button>
+  </form>
+</article>
+</main>
+  <hr>
+  <footer>
+    <p>
+  &lt;&lt;&lt; &copy;<a href="about.html">
+    Tanimowo sodiq damilare</a> &gt;&gt;&gt;
+    </p>
+    <p>
+      <a href="#">Back Top</a>
+    </p>
+  </footer>
+</body>
+
+</html>
